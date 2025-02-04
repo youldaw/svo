@@ -9,13 +9,13 @@ $(function () {
     });
 
 
-    $('.sidebar-item .item-btn').on('click', function (e) {
-        e.preventDefault();
-        $('.item-btn').removeClass('active');
-        $(this).addClass('active');
-        $(this).parent('.sidebar-item').siblings().removeClass('active');
-        $(this).parent('.sidebar-item').addClass('active');
-    });
+    // $('.sidebar-item .item-btn').on('click', function (e) {
+    //     // e.preventDefault();
+    //     $('.item-btn').removeClass('active');
+    //     $(this).addClass('active');
+    //     $(this).parent('.sidebar-item').siblings().removeClass('active');
+    //     $(this).parent('.sidebar-item').addClass('active');
+    // });
 
     var swiper1 = new Swiper(".history-slide", {
         slidesPerView: 4,
